@@ -1,0 +1,41 @@
+{
+  "name": "sanctum-ai",
+  "version": "0.1.0",
+  "description": "Node.js/TypeScript SDK for SanctumAI — secure credential management for AI agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx --test tests/protocol.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sanctum",
+    "ai",
+    "credentials",
+    "secrets",
+    "vault",
+    "agents"
+  ],
+  "author": "SanctumAI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwgale/sanctum-sdk-node"
+  },
+  "homepage": "https://github.com/jwgale/sanctum",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
