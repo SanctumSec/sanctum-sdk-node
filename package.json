@@ -24,9 +24,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jwgale/sanctum-sdk-node"
+    "url": "git+https://github.com/SanctumSec/sanctum-sdk-node.git"
   },
-  "homepage": "https://github.com/jwgale/sanctum",
+  "homepage": "https://sanctumai.dev",
   "engines": {
     "node": ">=18"
   },
